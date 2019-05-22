@@ -1,0 +1,42 @@
+#slider {
+    position: relative;
+    height: 500px;
+}
+
+#slider .img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .img .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s;
+}
+
+#slider .img .item img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .navigation {
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#slider .right {
+    right: 20px;
+}
+
+#slider .left {
+    left: 20px;
+}
+
+.active {
+    opacity: 1 !important;
+}

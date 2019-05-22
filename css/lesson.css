@@ -1,0 +1,32 @@
+/* body {
+    height: 5000px;
+}
+
+#circle,
+#circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.picture {
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.picture img {
+    width: 100%;
+}
+
+span {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
